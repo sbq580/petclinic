@@ -7,7 +7,7 @@ package com.springframework.petclinic.model;
  * @author HazariSH
  *
  */
-public class PetType {
+public class PetType extends BaseEntity{
 	private String name;
 
 	//Getters and setters
