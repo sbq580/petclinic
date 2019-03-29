@@ -11,7 +11,7 @@ import com.springframework.petclinic.model.Owner;
  * @author HazariSH
  *
  */
-public interface OwnerService implements CrudService<Owner, Long>{
+public interface OwnerService extends CrudService<Owner, Long> {
 	
 	/* Find all entity by LastName property */
 	Owner findByLastName(String lastName);

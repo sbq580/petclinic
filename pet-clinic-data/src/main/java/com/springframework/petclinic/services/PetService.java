@@ -11,6 +11,6 @@ import com.springframework.petclinic.model.Pet;
  * @author HazariSH
  *
  */
-public interface PetService implements CrudService<Pet, Long>{
+public interface PetService extends CrudService<Pet, Long> {
 
 }
